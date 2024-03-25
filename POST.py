@@ -4,7 +4,7 @@ import requests
 data = {'key1': 'value1', 'key2': 'value2'}
 
 # POST 요청 보내기
-response = requests.post('http://example.com/post_endpoint', data=data)
+response = requests.post('http://google.com', data=data)
 
 # 응답 확인
 print('Status Code:', response.status_code)
